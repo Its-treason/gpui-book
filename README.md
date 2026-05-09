@@ -1,4 +1,4 @@
-# [GPUI Book](https://matinaniss.github.io/gpui-book/)
+# [GPUI Book](https://gpui-book.its-treason.com/)
 
 A book teaching you the concepts you need to create your own [GPUI](https://www.gpui.rs/) application.
 

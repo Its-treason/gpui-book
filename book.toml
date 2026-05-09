@@ -1,12 +1,12 @@
 [book]
 title = "GPUI"
 description = "A book teaching you the concepts you need to create your own GPUI application."
-authors = ["Matin Aniss"]
+authors = ["Matin Aniss", "Timon Schünemann"]
 language = "en"
 src = "src"
 
 [output.html]
-git-repository-url = "https://github.com/MatinAniss/gpui-book"
+git-repository-url = "https://github.com/Its-treason/gpui-book"
 site-url = "/gpui-book/"
 default-theme = "light"
 preferred-dark-theme = "ayu"
