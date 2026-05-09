@@ -33,6 +33,7 @@
 - [Interactivity](interactivity/index.md)
   - [Mouse](interactivity/mouse.md)
   - [Keyboard](interactivity/keyboard.md)
+  - [Window Decorations](interactivity/custom_window_decorations.md)
 - [Rendering](rendering/index.md)
   - [Render](rendering/render.md)
   - [RenderOnce](rendering/render-once.md)
