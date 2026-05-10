@@ -9,3 +9,20 @@ This example uses a file system path as the image, but you may use any other `Im
 ```rust
 {{ #include snippets/creating_a_img.rs }}
 ```
+
+### Using include_bytes
+
+```rust
+use gpui::{Image, img, prelude::*};
+
+const ICON_DATA: &[u8] = include_bytes!(concat!(env!("CARGO_MANIFEST_DIR"), "/assets/icon.svg"));
+
+fn render() -> impl IntoElement {
+    let image = Arc::new(Image::from_bytes(
+        gpui::ImageFormat::Svg,
+        ICON_DATA.to_vec(),
+    ));
+
+    img(image)
+}
+```
